@@ -19,9 +19,9 @@ export default function Navbar() {
                     </div>
                     {/* Action */}
                     <div className="hidden md:block">
-                        <a href="mailto:data@neracaummah.id" className="px-4 py-2 bg-slate-900 text-white text-sm font-medium rounded-lg hover:bg-slate-800 transition-colors">
+                        <Link href="/kirim-data" className="px-4 py-2 bg-slate-900 text-white text-sm font-medium rounded-lg hover:bg-slate-800 transition-colors">
                             Kirim Data
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>
