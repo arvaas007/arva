@@ -148,9 +148,9 @@ export default function Home() {
                             <p className="text-gray-600 mb-6">
                                 {indeksData.narrative}
                             </p>
-                            <button className="self-start text-primary font-bold hover:text-primary-dark flex items-center group">
+                            <Link href="/article/2" className="self-start text-primary font-bold hover:text-primary-dark flex items-center group">
                                 Baca Laporan Lengkap <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                            </button>
+                            </Link>
                         </div>
                     </div>
                 </div>
