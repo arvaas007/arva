@@ -112,7 +112,11 @@ export default function Home() {
             {/* Latest Analysis */}
             <section className="py-20 bg-slate-900 text-white">
                 <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <h2 className="text-3xl font-bold font-serif mb-12 border-b border-slate-700 pb-6">Analisis Terbaru</h2>
+                    <h2 className="text-3xl font-bold font-serif mb-12 border-b border-slate-700 pb-6">
+                        <a href="https://arva-journal.vercel.app/" target="_blank" className="hover:text-red-500 transition-colors">
+                            ANALISIS TERBARU & JURNAL
+                        </a>
+                    </h2>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                         {latestAnalysis.map((item) => (
                             <Link key={item.id} href={`/article/${item.id}`} className="group">
