@@ -1,5 +1,4 @@
 import { siteConfig } from "@/lib/data";
-
 export default function Footer() {
     return (
         <footer className="bg-white border-t border-gray-200 mt-20">
@@ -8,13 +7,14 @@ export default function Footer() {
                     {/* Brand */}
                     <div className="col-span-1">
                         <h3 className="text-xl font-serif font-bold text-gray-900 mb-4">
-                            {siteConfig.name}
+                            <a href="https://arva-journal.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+                                {siteConfig.name}
+                            </a>
                         </h3>
                         <p className="text-gray-600 text-sm leading-relaxed max-w-xs">
                             {siteConfig.description}
                         </p>
                     </div>
-
                     {/* Newsletter */}
                     <div className="col-span-1 md:col-span-2">
                         <h4 className="text-sm font-bold text-gray-900 tracking-wider uppercase mb-4">
