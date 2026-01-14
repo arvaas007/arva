@@ -81,3 +81,19 @@ Hingga akhir kuartal lalu, total outstanding Surat Berharga Syariah Negara (SBSN
 Namun, tantangannya adalah pasar sekunder. Data transaksi menunjukkan bahwa sebagian besar investor ritel memegang sukuk hingga jatuh tempo (hold to maturity). Ini bagus untuk stabilitas, namun kurang bagus untuk pendalaman pasar keuangan (financial deepening).`
     }
 ];
+export const socialFinanceData = {
+    title: "Social Finance Pulse",
+    subtitle: "Wakaf & Infak Digital (Realtime)",
+    metrics: [
+        { label: "Akumulasi Wakaf Uang", value: "IDR 1.4 T", trend: "▲ 15% YoY", trendUp: true } as KpiMetric,
+        { label: "Infak Digital/Bulan", value: "IDR 89 M", trend: "Platform Online", trendUp: true } as KpiMetric,
+    ],
+    chart: [
+        { label: "Wakaf Tanah (Ha)", value: 65, displayValue: "56rb Ha (Produktif)", color: "bg-emerald-500" },
+        { label: "Wakaf Tanah (Ha)", value: 35, displayValue: "30rb Ha (Non-Prod)", color: "bg-slate-300" },
+    ],
+    chart2: [
+        { label: "Infak Via QRIS", value: 72, displayValue: "72% Digital", color: "bg-blue-600" },
+        { label: "Infak Via Kotak", value: 28, displayValue: "28% Tunai", color: "bg-slate-400" },
+    ]
+};
