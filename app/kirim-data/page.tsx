@@ -15,7 +15,7 @@ export default function KirimDataPage() {
                         <h1 className="text-3xl font-serif font-bold text-gray-900 mb-4">Kirim Data Ekonomi Umat</h1>
                         <p className="text-gray-500">
                             Punya data riset, laporan lapangan, atau statistik yang relevan? 
-                            Kirimkan kepada kami untuk dikurasi dan dipublikasikan.
+                            Kirimkan kepada kami untuk dikurasi dan dipublikasikan. Kirim dalam bentuk link drive Anda.
                         </p>
                     </div>
                     <form 
@@ -51,3 +51,4 @@ export default function KirimDataPage() {
         </main>
     );
 }
+
