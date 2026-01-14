@@ -14,6 +14,7 @@ export default function Navbar() {
                     {/* Desktop Links */}
                     <div className="hidden md:flex space-x-8 text-sm font-medium text-gray-600">
                         <Link href="/#zakat" className="hover:text-primary transition-colors">Zakat Watch</Link>
+                        <Link href="/#social-finance" className="hover:text-primary transition-colors">Social Finance Pulse</Link>
                         <Link href="/#finance" className="hover:text-primary transition-colors">Islamic Finance</Link>
                         <Link href="/#indeks" className="hover:text-primary transition-colors">Indeks Umat</Link>
                     </div>
