@@ -12,7 +12,7 @@ export default function Home() {
             <section className="bg-white border-b border-gray-200 py-16 lg:py-24">
                 <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center max-w-3xl">
                     <span className="inline-block py-1 px-3 rounded-full bg-primary/10 text-primary text-xs font-bold uppercase tracking-wider mb-6">
-                        Jurnalisme Data Ekonomi Umat
+                        Jurnalisme Data Ekonomi Umat By ARVA-AS
                     </span>
                     <h1 className="text-4xl md:text-6xl font-serif font-bold text-gray-900 mb-6 leading-tigher">
                         Bicara Data, <br /><span className="text-primary">Bukan Sekadar Narasi.</span>
@@ -143,3 +143,4 @@ export default function Home() {
         </main>
     );
 }
+
