@@ -23,7 +23,10 @@ export default function Navbar() {
                         <Link href="/#indeks" className="hover:text-primary transition-colors">Indeks Umat</Link>
                     </div>
                     {/* Desktop Action */}
-                    <div className="hidden md:block">
+                    <div className="hidden md:flex items-center gap-3">
+                        <Link href="/ambil-data" className="px-4 py-2 text-slate-900 text-sm font-medium border border-slate-900 rounded-lg hover:bg-slate-50 transition-colors">
+                            Ambil Data
+                        </Link>
                         <Link href="/kirim-data" className="px-4 py-2 bg-slate-900 text-white text-sm font-medium rounded-lg hover:bg-slate-800 transition-colors">
                             Kirim Data
                         </Link>
@@ -48,6 +51,9 @@ export default function Navbar() {
                         <Link href="/#finance" onClick={() => setIsMenuOpen(false)} className="text-gray-600 hover:text-primary font-medium">Islamic Finance</Link>
                         <Link href="/#indeks" onClick={() => setIsMenuOpen(false)} className="text-gray-600 hover:text-primary font-medium">Indeks Umat</Link>
                         <div className="pt-2">
+                            <Link href="/ambil-data" onClick={() => setIsMenuOpen(false)} className="block w-full text-center px-4 py-3 bg-white border border-slate-200 text-slate-900 font-medium rounded-lg hover:bg-slate-50 transition-colors mb-3">
+                                Ambil Data
+                            </Link>
                             <Link href="/kirim-data" onClick={() => setIsMenuOpen(false)} className="block w-full text-center px-4 py-3 bg-slate-900 text-white font-medium rounded-lg hover:bg-slate-800 transition-colors">
                                 Kirim Data
                             </Link>
